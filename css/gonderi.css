@@ -1,0 +1,93 @@
+﻿#anaSayfaContent {
+position:absolute;
+top:40px;
+width:100%; 
+} 
+.dunyaCapinda, .takipEttiklerim {
+width:50%;
+float:left;
+height:40px;
+background-color:cornflowerblue; 
+position:relative;
+}
+  
+.kisitmalaResim { 
+    display: block;
+width: auto; 
+height: auto;
+max-width: 100%;
+margin: auto;
+}
+ 
+ 
+.gonderiItem { 
+margin:10px 5px;
+background-color:beige;
+border:1px solid;
+border-radius:5px;
+border-top-left-radius:20px;
+overflow:hidden;
+}
+
+.gonderiUstBar {
+height:40px;
+background-color:beige;
+}
+
+.gonderiLikeBar { 
+height:50px;
+position:relative;
+}
+.solLike, .sagLike {  
+background-color:#E2E2D8;
+width:50%;  
+height:100%; 
+
+display:block;
+position:absolute;
+right:50%;
+border:2px solid  beige;
+}
+.sagLike {
+    left:50%;
+} 
+.sagLikeButton, .sagLikeButton {
+height:30px;  
+position:relative; 
+right:5px;
+width:100%;
+}
+
+.solLikeSayisi, .sagLikeSayisi {  
+width:auto; 
+display:block;
+float:right;
+right:40px;
+position:absolute;
+}
+.solLikeImage, .sagLikeImage { 
+ width:30px;  
+ position:absolute;
+ right:5px;  
+}  
+.sagEtiket, .solEtiket {
+    height:18px;
+    margin-left:5px; 
+}
+
+.profilPhoto {
+height:40px;
+width:40px;
+border-radius:20px;
+} 
+.panelGonderiMenu {
+width:150px;
+ padding:5px;
+background-color:whitesmoke;
+border:1px solid black; 
+}
+
+.arkaGonderiMenu {
+background-color:gray;
+opacity:0.8;
+}

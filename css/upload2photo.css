@@ -1,0 +1,47 @@
+﻿#uploadPhotoContent {
+width:100%;
+position:absolute;
+top:40px;
+}
+.photo2uploadpanel { 
+height:40px;
+width:100%;
+background-color:blueviolet;
+overflow:hidden;
+}
+.photo2uploadpanelBlok1  {
+display: block;
+width: 50%;
+height: auto; 
+ 
+ float:left;
+}
+.photo2uploadpanelBlok2 {
+ display: block;
+width: 50%;
+height: auto;  
+float:left;
+} 
+.uploadbutton { 
+width: 40px;
+height: auto; 
+
+position:absolute;
+right:5px;  
+}
+
+
+.solEtiketAlani {
+   width:45%;     
+   position:absolute;
+   left:0;
+   
+}
+.sagEtiketAlani {
+width:45%;   
+position:absolute;
+right:0;
+}
+.fotocontent {
+width:95%; 
+}

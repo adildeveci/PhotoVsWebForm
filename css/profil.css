@@ -1,0 +1,52 @@
+﻿.profilContent {
+position:absolute;
+top:40px;
+width:100%;
+}
+ 
+.profilUstBar {
+    width:100%;
+    height:45px; 
+background-color:cornflowerblue; 
+}
+
+.profilFoto, .takipciler, .takipEdilen, .gonderiSayisi, .ayarButton {
+height:40px;  
+float:left;
+ width:20%; 
+}
+
+.sayacIcon {
+height:30px; 
+}
+.sayac {
+height:10px; 
+line-height:5px;
+}
+
+.gonderiKisitlamaBar {
+height:40px;
+}
+.tumGonderiler, .yuklenenGonderiler, .duelloGonderiler, .etiketlenilenGonderiler, .favoriGonderiler {
+    height:40px;
+    width:50%;
+    float:left; 
+   
+background-color:cornsilk;
+
+
+}
+
+.ortaIcon { 
+ display: block;
+width: auto;
+height: auto;
+max-width: 100%;
+margin: auto;
+}
+
+
+.arkaGonderiMenu {
+background-color:gray;
+opacity:0.8;
+}

@@ -1,0 +1,28 @@
+﻿.photo2uploadpanel {
+height:40px;
+background-color:blueviolet;
+}
+.photo2uploadpanelBlok1  {
+width:100%;
+position:relative;
+float:left;
+} 
+.kullaniciEtiketle {
+    position:relative;
+    
+}
+.solEtiketAlani {
+   width:100%;      
+   
+} 
+.fotocontent {
+width:100%;
+
+}
+.uploadbutton {
+  width:40px;
+  height:40px;
+  position:absolute;
+  
+   right:0px;
+}

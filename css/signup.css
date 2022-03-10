@@ -1,0 +1,23 @@
+﻿.girisForm {
+    background-color:cornflowerblue;
+    width:100%;
+max-width:600px;
+margin:auto;   
+ 
+}
+.girisForm tr {
+    border-bottom:1px solid;
+} 
+    .girisForm td {
+    padding:5px;
+    height:40px;
+    }
+
+.loginSolBlock {
+    width:70px;
+}
+.loginSagBlock {
+width:70px;
+}
+
+ 

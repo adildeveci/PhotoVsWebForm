@@ -1,0 +1,27 @@
+﻿ 
+    #photoUploadMenu {
+    width:100%;  
+    background-color:cornflowerblue;
+    height:40px;
+    }
+
+    .photoUploadMenuItem {    
+        
+        
+    width:33%; 
+    float: left; 
+
+     
+    }
+    .photoUploadMenuImage {
+    display: block;
+width: auto;
+height: auto;
+max-width: 100%;
+margin: auto;
+    }
+     
+
+
+
+ 

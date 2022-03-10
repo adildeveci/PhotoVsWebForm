@@ -1,0 +1,35 @@
+﻿#hesapAyarlariContent {
+  position:absolute;
+  top:40px;
+  width:100%;
+}
+ 
+
+.girisForm {
+    background-color:cornflowerblue;
+    width:100%; 
+margin:auto;   
+ 
+}
+.girisForm tr {
+    border-bottom:1px solid;
+} 
+    .girisForm td {
+    padding:5px;
+    height:40px;
+    }
+
+.loginSolBlock {
+    width:70px;
+    font-size:small;
+}
+.loginSagBlock {
+width:90px;
+ font-size:small;   
+}
+
+ 
+
+
+
+

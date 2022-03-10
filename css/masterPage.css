@@ -1,0 +1,52 @@
+﻿ #masterPageContent, #ustMenu {
+width:100%;
+max-width:600px;
+
+}
+
+@media screen and (max-device-width: 600px) {
+    #masterPageContent, #ustMenu {
+        width:100%;
+    }
+}
+@media screen and (min-width: 601px) {
+    #masterPageContent, #ustMenu {
+         max-width:600px;
+    }
+}
+
+
+
+   #masterPageContent { 
+    margin-left:auto;
+    margin-right:auto;
+    position:relative; 
+}
+    #ustMenu { 
+    height:40px;
+    
+    background: #F0E68C; 
+    z-index: 2;
+    position:fixed;
+    top:0; 
+    } 
+
+   #ustMenu ul {    
+      
+    float:left;
+    width:16%;  
+    height:40px;
+    position:relative;
+}
+
+   
+
+.anaMenuItem { 
+   
+ display: block;
+width: auto;
+height: auto;
+max-width: 100%;
+margin: auto;
+} 
+

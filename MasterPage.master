@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Photo VS</title>
+    <meta name="description" content="Fotoğraflarınızı karşılaştırın. Hangi fotoğrafın daha iyi olduğunu öğrenin." />
+    <meta name="keywords" content="foto, photo, vs, photovs, karsilastir" />
+    <meta name="author" content="photo vs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+     
+    <link href="css/masterPage.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="masterPageContent">
+            <div id="ustMenu">
+                <ul>
+                    <asp:ImageButton Width="40px" ID="ImageButton1" class="anaMenuItem" runat="server" ImageUrl="~/images/anaSayfa.png" OnClick="ImageButton1_Click" />
+                </ul>
+                <ul>
+                    <asp:ImageButton Width="40px" ID="ImageButton2" class="anaMenuItem" runat="server" ImageUrl="~/images/profil.png" OnClick="ImageButton2_Click" />
+                </ul>
+                <ul>
+                    <asp:ImageButton Width="40px" ID="ImageButton3" class="anaMenuItem" runat="server" ImageUrl="~/images/fotoYukle.png" OnClick="ImageButton3_Click" />
+                </ul>
+                <ul>
+                    <asp:ImageButton Width="40px" ID="ImageButton4" class="anaMenuItem" runat="server" ImageUrl="~/images/arama.png" OnClick="ImageButton4_Click" />
+                </ul>
+                <ul>
+                    <asp:ImageButton Width="40px" ID="ImageButton5" class="anaMenuItem" runat="server" ImageUrl="~/images/bildirim.png" OnClick="ImageButton5_Click" />
+                </ul>
+                <ul>
+                    <asp:ImageButton Width="40px" ID="ImageButton6" class="anaMenuItem" runat="server" ImageUrl="~/images/anaMenu.png" OnClick="ImageButton6_Click" />
+                </ul>
+
+            </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+</body>
+</html>

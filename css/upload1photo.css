@@ -1,0 +1,41 @@
+﻿#uploadPhotoContent {
+width:100%;
+position:absolute;
+top:40px;
+}
+
+  
+.solEtiketAlani {
+   width:50%;     
+  display:block;
+  float:left;
+   
+}
+.sagEtiketAlani {
+width:50%;  
+ display:block;
+ float:left;
+}
+
+#createfoto {
+    background-color:blueviolet;
+height:40px;
+  width:100%;
+position:relative;
+}
+.fotosec {
+    display:block;
+    width:100%;
+    height:40px;
+    float:left;
+
+
+    overflow:hidden;
+}
+.uploadbutton {
+  width:40px;
+  height:40px;
+  position:absolute;
+  
+   right:0px;
+}
